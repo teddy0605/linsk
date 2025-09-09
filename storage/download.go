@@ -90,7 +90,7 @@ func (s *Storage) download(ctx context.Context, url string, hash []byte, out str
 			percent = float64(downloaded) / float64(knownSize)
 		}
 
-		lg := s.logger.With("out", outClean, "done", humanize.Bytes(uint64(downloaded)))
+		lg := s.logger.With("out", outClean, "done", humanize.Bytes(uint64(downloaded))) // #nosec G115
 		if percent != 0 {
 			lg.Info("Downloading file", "percent", math.Round(percent*100*100)/100)
 		} else {
@@ -101,7 +101,7 @@ func (s *Storage) download(ctx context.Context, url string, hash []byte, out str
 		return errors.Wrap(err, "copy resp to file")
 	}
 
-	s.logger.Info("Successfully downloaded file", "from", url, "to", outClean, "out-size", humanize.Bytes(uint64(n)))
+	s.logger.Info("Successfully downloaded file", "from", url, "to", outClean, "out-size", humanize.Bytes(uint64(n))) // #nosec G115
 
 	success = true
 

@@ -27,13 +27,13 @@ import (
 
 	"log/slog"
 
+	"github.com/pkg/errors"
 	"github.com/teddy0605/linsk/cmd/runvm"
 	"github.com/teddy0605/linsk/nettap"
 	"github.com/teddy0605/linsk/osspecifics"
 	"github.com/teddy0605/linsk/share"
 	"github.com/teddy0605/linsk/storage"
 	"github.com/teddy0605/linsk/vm"
-	"github.com/pkg/errors"
 )
 
 func createStoreOrExit() *storage.Storage {
@@ -240,12 +240,12 @@ func getDevicePassthroughConfig(val string) (*vm.PassthroughConfig, error) {
 			return nil, fmt.Errorf("bad usb device passthrough syntax: wrong args split by ',' count: want %v, have %v", want, have)
 		}
 
-		vendorID, err := strconv.ParseUint(usbValsSplit[0], 16, 32)
+		vendorID, err := strconv.ParseUint(usbValsSplit[0], 16, 16)
 		if err != nil {
 			return nil, fmt.Errorf("bad usb vendor id '%v'", usbValsSplit[0])
 		}
 
-		productID, err := strconv.ParseUint(usbValsSplit[1], 16, 32)
+		productID, err := strconv.ParseUint(usbValsSplit[1], 16, 16)
 		if err != nil {
 			return nil, fmt.Errorf("bad usb product id '%v'", usbValsSplit[1])
 		}
