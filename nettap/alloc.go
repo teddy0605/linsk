@@ -38,7 +38,8 @@ func (a *Alloc) Validate() error {
 		return fmt.Errorf("pid is zero")
 	}
 
-	if a.PID > int(int32(a.PID)) { // #nosec G115
+	// #nosec G115 -- PID overflow check is intentional
+	if a.PID > int(int32(a.PID)) {
 		return fmt.Errorf("pid int32 overflow (%v)", a.PID)
 	}
 
@@ -70,7 +71,8 @@ func (tm *TapManager) PruneTaps(knownAllocs []Alloc) ([]string, error) {
 	var tapsToRemove []string
 
 	for _, alloc := range knownAllocs {
-		if _, exists := runningPidsMap[int32(alloc.PID)]; !exists { // #nosec G115
+		// #nosec G115 -- PID conversion is safe in this context
+		if _, exists := runningPidsMap[int32(alloc.PID)]; !exists {
 			tm.logger.Info("Found a dangling network tap", "name", alloc.TapName, "pid", alloc.PID)
 			tapsToRemove = append(tapsToRemove, alloc.TapName)
 		}
