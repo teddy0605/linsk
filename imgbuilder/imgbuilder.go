@@ -27,11 +27,11 @@ import (
 
 	"log/slog"
 
-	"github.com/AlexSSD7/linsk/cmd/runvm"
-	"github.com/AlexSSD7/linsk/osspecifics"
-	"github.com/AlexSSD7/linsk/share"
-	"github.com/AlexSSD7/linsk/utils"
-	"github.com/AlexSSD7/linsk/vm"
+	"github.com/teddy0605/linsk/cmd/runvm"
+	"github.com/teddy0605/linsk/osspecifics"
+	"github.com/teddy0605/linsk/share"
+	"github.com/teddy0605/linsk/utils"
+	"github.com/teddy0605/linsk/vm"
 	"github.com/alessio/shellescape"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/ssh"

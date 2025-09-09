@@ -19,7 +19,7 @@ package constants
 import (
 	"runtime"
 
-	"github.com/AlexSSD7/linsk/utils"
+	"github.com/teddy0605/linsk/utils"
 )
 
 const baseAlpineVersionMajor = "3.20"

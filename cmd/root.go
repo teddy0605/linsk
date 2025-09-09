@@ -23,7 +23,7 @@ import (
 
 	"log/slog"
 
-	"github.com/AlexSSD7/linsk/osspecifics"
+	"github.com/teddy0605/linsk/osspecifics"
 	"github.com/spf13/cobra"
 )
 

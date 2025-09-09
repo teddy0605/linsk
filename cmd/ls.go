@@ -22,8 +22,8 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/AlexSSD7/linsk/share"
-	"github.com/AlexSSD7/linsk/vm"
+	"github.com/teddy0605/linsk/share"
+	"github.com/teddy0605/linsk/vm"
 	"github.com/spf13/cobra"
 )
 

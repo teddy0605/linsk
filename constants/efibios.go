@@ -16,7 +16,7 @@
 
 package constants
 
-import "github.com/AlexSSD7/linsk/utils"
+import "github.com/teddy0605/linsk/utils"
 
 const aarch64EFIImageBZ2URL = "https://github.com/qemu/qemu/raw/92ec7805190313c9e628f8fc4eb4f932c15247bd/pc-bios/edk2-aarch64-code.fd.bz2"
 const aarch64EFIImageName = "edk2-aarch64-code.fd"

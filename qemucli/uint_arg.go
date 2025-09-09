@@ -17,7 +17,7 @@
 package qemucli
 
 import (
-	"github.com/AlexSSD7/linsk/utils"
+	"github.com/teddy0605/linsk/utils"
 	"github.com/pkg/errors"
 	"golang.org/x/exp/constraints"
 )

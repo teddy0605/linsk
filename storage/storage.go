@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/AlexSSD7/linsk/constants"
-	"github.com/AlexSSD7/linsk/imgbuilder"
+	"github.com/teddy0605/linsk/constants"
+	"github.com/teddy0605/linsk/imgbuilder"
 	"github.com/pkg/errors"
 )
 

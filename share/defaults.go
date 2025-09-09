@@ -19,7 +19,7 @@ package share
 import (
 	"net"
 
-	"github.com/AlexSSD7/linsk/osspecifics"
+	"github.com/teddy0605/linsk/osspecifics"
 )
 
 func IsSMBExtModeDefault() bool {

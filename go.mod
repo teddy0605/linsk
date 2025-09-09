@@ -1,4 +1,4 @@
-module github.com/AlexSSD7/linsk
+module github.com/teddy0605/linsk
 
 go 1.21
 

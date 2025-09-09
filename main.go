@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/AlexSSD7/linsk/cmd"
+	"github.com/teddy0605/linsk/cmd"
 )
 
 func main() {

@@ -26,7 +26,7 @@ Assuming that you have an existing Go installation, you should be able to access
 
 You can run the following command to build and install Linsk:
 ```sh
-go install github.com/AlexSSD7/linsk@latest
+go install github.com/teddy0605/linsk@latest
 ```
 
 After that, you should be able to run `linsk`, or `~/go/bin/linsk` if you have not added `~/go/bin` to `$PATH`.
@@ -37,13 +37,13 @@ TODO.
 
 ## Prebuilt binaries
 
-You can find prebuilt binaries in [Linsk GitHub Releases](https://github.com/AlexSSD7/linsk/releases).
+You can find prebuilt binaries in [Linsk GitHub Releases](https://github.com/teddy0605/linsk/releases).
 
 ## Build from Source
 Clone the repository using `git` and run `go build` to build the Linsk binary.
 
 ```sh
-git clone https://github.com/AlexSSD7/linsk
+git clone https://github.com/teddy0605/linsk
 cd linsk
 go build
 ```

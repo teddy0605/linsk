@@ -23,9 +23,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/AlexSSD7/linsk/osspecifics"
-	"github.com/AlexSSD7/linsk/share"
-	"github.com/AlexSSD7/linsk/vm"
+	"github.com/teddy0605/linsk/osspecifics"
+	"github.com/teddy0605/linsk/share"
+	"github.com/teddy0605/linsk/vm"
 	"github.com/sethvargo/go-password/password"
 	"github.com/spf13/cobra"
 )

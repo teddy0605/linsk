@@ -29,8 +29,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/AlexSSD7/linsk/sshutil"
-	"github.com/AlexSSD7/linsk/utils"
+	"github.com/teddy0605/linsk/sshutil"
+	"github.com/teddy0605/linsk/utils"
 	"github.com/alessio/shellescape"
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"

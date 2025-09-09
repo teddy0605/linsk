@@ -17,8 +17,8 @@
 package share
 
 import (
-	"github.com/AlexSSD7/linsk/nettap"
-	"github.com/AlexSSD7/linsk/vm"
+	"github.com/teddy0605/linsk/nettap"
+	"github.com/teddy0605/linsk/vm"
 )
 
 type NetTapRuntimeContext struct {

@@ -30,10 +30,10 @@ import (
 
 	"log/slog"
 
-	"github.com/AlexSSD7/linsk/osspecifics"
-	"github.com/AlexSSD7/linsk/qemucli"
-	"github.com/AlexSSD7/linsk/sshutil"
-	"github.com/AlexSSD7/linsk/utils"
+	"github.com/teddy0605/linsk/osspecifics"
+	"github.com/teddy0605/linsk/qemucli"
+	"github.com/teddy0605/linsk/sshutil"
+	"github.com/teddy0605/linsk/utils"
 	"github.com/bramvdbogaerde/go-scp"
 	"github.com/phayes/freeport"
 	"github.com/pkg/errors"

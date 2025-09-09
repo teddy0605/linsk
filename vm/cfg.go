@@ -28,10 +28,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AlexSSD7/linsk/nettap"
-	"github.com/AlexSSD7/linsk/osspecifics"
-	"github.com/AlexSSD7/linsk/qemucli"
-	"github.com/AlexSSD7/linsk/utils"
+	"github.com/teddy0605/linsk/nettap"
+	"github.com/teddy0605/linsk/osspecifics"
+	"github.com/teddy0605/linsk/qemucli"
+	"github.com/teddy0605/linsk/utils"
 	"github.com/pkg/errors"
 )
 

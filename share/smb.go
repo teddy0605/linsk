@@ -21,8 +21,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/AlexSSD7/linsk/osspecifics"
-	"github.com/AlexSSD7/linsk/vm"
+	"github.com/teddy0605/linsk/osspecifics"
+	"github.com/teddy0605/linsk/vm"
 	"github.com/pkg/errors"
 )
 

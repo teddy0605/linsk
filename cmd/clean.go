@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/AlexSSD7/linsk/nettap"
-	"github.com/AlexSSD7/linsk/utils"
+	"github.com/teddy0605/linsk/nettap"
+	"github.com/teddy0605/linsk/utils"
 	"github.com/spf13/cobra"
 )
 

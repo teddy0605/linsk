@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/AlexSSD7/linsk/vm"
+	"github.com/teddy0605/linsk/vm"
 	"github.com/pkg/errors"
 )
 

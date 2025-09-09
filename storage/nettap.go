@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlexSSD7/linsk/nettap"
+	"github.com/teddy0605/linsk/nettap"
 	"github.com/pkg/errors"
 )
 

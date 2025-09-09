@@ -26,8 +26,8 @@ import (
 
 	"log/slog"
 
-	"github.com/AlexSSD7/linsk/share"
-	"github.com/AlexSSD7/linsk/vm"
+	"github.com/teddy0605/linsk/share"
+	"github.com/teddy0605/linsk/vm"
 )
 
 type Func func(context.Context, *vm.VM, *vm.FileManager, *share.NetTapRuntimeContext) int
